@@ -52,7 +52,7 @@ export default class Map extends Component {
         return (
             <MapView style={{ flex: 1, position: "relative" }} 
                         region={{ latitude: lat, longitude: long, latitudeDelta: 0.001, longitudeDelta: 0.004 }}>
-            <MapView.Marker coordinate={{ latitude: lat, longitude: long }} title={"marker.title"} description={"des"} />
+            <MapView.Marker coordinate={{ latitude: lat, longitude: long }} title={"here i im"} description={"des"} />
                 <View style={styles.buttonView}>
                     <TouchableOpacity style={styles.buttonTouch}>
                         <Icon name="logout" size={30} onPress={() => firebase
